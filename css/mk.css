@@ -945,6 +945,7 @@ position: absolute;
 .ourSkills .skills{
     width: 60%;
 }
+.ourSkills span{transition: 0.7s;}
 .ourSkills .skill h2{
     display: flex;
     justify-content:space-between;
@@ -1714,3 +1715,23 @@ position: absolute;
     margin: 0;
 }
 /* End footer */
+/*scroll to top*/
+.scrollToTop{
+    width:40px;
+    height:40px;
+    background-color: #03a9f4;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position:fixed;
+    right:20px;
+    bottom: 50px;
+    z-index: 100;
+    transition:0.4s;
+    opacity: 0;
+}
+.scrollToTop:hover{
+    background-color: #1877f2;
+}
